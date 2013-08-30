@@ -5,6 +5,7 @@ CfWeekThree::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
+  root 'pages#home'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
@@ -13,6 +14,8 @@ CfWeekThree::Application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  resources :contacts
+
 
   # Example resource route with options:
   #   resources :products do
